@@ -1,0 +1,7 @@
+{
+  "name": "Offline Price Scanner",
+  "description": "A PWA that uses computer vision to detect products and display prices offline.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
