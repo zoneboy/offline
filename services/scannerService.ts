@@ -41,3 +41,11 @@ export const predict = async (videoElement: HTMLVideoElement): Promise<Predictio
 export const isModelLoaded = (): boolean => {
   return !!model;
 };
+
+/**
+ * Returns the class labels from the model
+ */
+export const getModelLabels = (): string[] => {
+  if (!model) return [];
+  return model.getClassLabels();
+}
