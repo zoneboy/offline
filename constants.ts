@@ -36,5 +36,6 @@ export const PRICE_MAPPING: Record<string, PriceInfo> = {
 };
 
 export const CONFIDENCE_THRESHOLD = 0.85; // 85% confidence required
-export const MODEL_URL = './my_model/model.json';
-export const METADATA_URL = './my_model/metadata.json';
+// Use absolute paths assuming these are in the 'public' folder
+export const MODEL_URL = '/my_model/model.json';
+export const METADATA_URL = '/my_model/metadata.json';
